@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/icon.ico">
+    <title>My BIO CV#3</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">   
+            <div class="nav">
+                <div class="nav-logo">
+                <a href="#contacts"><img src="assets/img/icon-hover.png" alt="RS"></a>
+            </div>
+                <ul class="nav-link">
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#">Code example</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    </ul>
+            </div>
+            <div class="header-intro">
+                <div class="header-photo">
+                    <img src="assets/img/avatar.png" alt="my-photo">
+                </div>
+                <div class="header-info">
+                    <h1>Ilya Shokhau</h1>
+                    <ul class="header-list__info">
+                        <li class="header-link link">
+                            <span>Age:</span> 26
+                        </li>
+                        <li class="header-link link">
+                            <span>Location:</span> Belarus, Brest
+                        </li>
+                    </ul>
+                    <h2 id="contacts">Contacts</h2>
+                    <ul class="header-list__contacts">
+                        <li class="header-link link">
+                            <span>Telephone:</span> <a href="tel.+375298381131">+375298381131</a>
+                        </li>
+                        <li class="header-link link">
+                            <span>Email:</span> <a href="mailto:tyrykina56@gmail.com">tyrykina56@gmail.com</a>
+                        </li>
+                        <li class="header-link link">
+                            <span>GitHub:</span> <a href="https://github.com/Tyrykin">Tyrykin</a>
+                        </li>
+                        <li class="header-link link">
+                            <span>Facebook:</span> <a href="https://www.facebook.com/ilya.chub.5">Ilya Chub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <hr> -->
+    <section class="about" id="about">
+        <div class="container">
+                <div class="description">
+                    <h3 class="description-title">
+                        Information about me
+                    </h3>
+                    <div class="description-about__me">
+                        <p>My name is Ilya, I am 26 years old, I live in Belarus in the city of Brest. I am a technologist by profession, I work as a quality controller in the ETERE shop, but I want to improve my skills. My goal is to become a Front-End Developer. I have a constant desire to learn something new and develop.</p>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="description">
+                    <h3 class="description-title" id="skills">
+                        Skills
+                    </h3>
+                    <div class="description-skills">
+                        <div class="descriptions-skills__skills">
+                            <img src="assets/img/html.png" alt="HTML">
+                            <p>HTML</p>
+                        </div>
+                        <div class="descriptions-skills__skills">
+                            <img src="assets/img/css.png" alt="CSS">
+                            <p>CSS</p>
+                        </div>
+                        <div class="descriptions-skills__skills">
+                            <img src="assets/img/js.png" alt="JS">
+                            <p>JavaScript <br>(Basic)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="description">
+                    <h3 class="description-title">
+                        Education
+                    </h3>
+                    <ul class="description-education" id="education">
+                        <li class="description-education__info"><a href="#">Brest State Polytechnic College (2012-2016);</a></li>
+                        <li class="description-education__info"><a href="#">UGRODNO STATE UNIVERSITY NAMED AFTER YANKA KUPALA (2020-2025).</a></li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h3 class="description-title">
+                        Code example
+                    </h3>
+                    <pre class="description-code" id="code">
+                        <code>
+                            (function () {
+                                const header = document.querySelector('.header');
+                                    window.onscroll = () => {
+                                    if (window.pageYOffset > 50) {
+                                            header.classList.add('header_active');
+                                    } else {
+                                        header.classList.remove('header_active');
+                                    }
+                                        };
+                            }());
+                        </code>
+                    </pre>
+                </div>
+                <div class="description">
+                    <h3 class="description-title">
+                        Languages
+                    </h3>
+                    <ul class="description-languages" id="languages">
+                        <li class="description-languages__info">Russian (native speaker);</li>
+                        <li class="description-languages__info">English A2.</li>
+                    </ul>
+                </div>
+                </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <a href="https://github.com/Tyrykin"><img src="assets/img/logo-me.png" alt=""></a>
+                <p>2023</p>
+                <a href="https://rs.school/js/"><img src="assets/img/icon-hover.png" alt="RSSchool"></a>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
